@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+<h1>GitBook</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3>Descrição</h3>
+<p>Essa Aplicação tem como finalidade realizar a busca de um usuário solicitado no banco de dados do github, por meio da utilização da API dp github</p>
 
-## Available Scripts
+<h3>Funcionalidades</h3>
+<p>A aplicação tem o seu funcionamento dividos em duas fases:</p>
+<ul>
+	<li>Primeira: A aplicação irá apresentar somente o header da página, com o nome do site e a barra de pesquisa, onde será realizado a busca pelo usuário solicitado.</li>
+	<img src="https://user-images.githubusercontent.com/65567865/134415159-398bf1b4-a438-46f1-997b-0d41a9d3b399.PNG"/>
+	<li>Segunda: Essa segunda fase, irá ser apresentada após a confirmação do usuário solicitado, e irá apresentar as informações em duas seções. Na primeira seção, irá ser apresentado um card com as informações principais do usuário pesquisado. Entretando, na segunda fase será exibido os 4 mais novos respositórios do usuário dentro de cards empilhados.</li>
+	<img src="https://user-images.githubusercontent.com/65567865/134415213-0bb7813e-096e-4b90-ae45-065e36da4027.PNG" />
+	<img src="https://user-images.githubusercontent.com/65567865/134415265-a9bc769b-175b-49bf-80e7-22d7f4c49ad1.PNG" />
+</ul>
 
-In the project directory, you can run:
+<h3>Como usar:</h3>
+<p>Para utilizar a aplicação basta digitar o nome de usuário no campo de texto logo no inicio da página e clicar no botão pesquisar logo abaixo. Em seguida será carregado as informções do usuário pesquisado logo abaixo da seção inicial em vermelho. Por fim, o usuário poderá interagir com os repositórios do usuário clicando sobre o nome dele. Ao clicar, o usuário será redirecionado para o repositório real no github.</p>
+<h3>Tecnologias utilizadas:</h3>
+<table>
+	<tr>
+		<td>React</td>
+		<td>Axios</td>
+	</tr>
+</table>
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h4>Autoria</h4>
+<p>Mateus Antuane Gonçalves</p>
