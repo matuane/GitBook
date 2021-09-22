@@ -1,0 +1,20 @@
+.repositorio {
+  margin: 0 auto;
+}
+
+.repositorio a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.repositorio span {
+  color: white;
+}
+
+.cardRepositorio {
+  border-width: 0.2rem;
+  border-style: solid;
+  border-color: #000000;
+  background-color: #980021;
+}

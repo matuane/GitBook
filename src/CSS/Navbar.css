@@ -1,0 +1,23 @@
+.navbarI {
+  background: linear-gradient(#980021, #000000);
+  padding: 2rem;
+  font-family: "Roboto Slab", serif;
+}
+
+.navCard {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.buttonSearch .btn {
+  margin: 1rem 1rem 1rem 0;
+  color: white;
+  border-width: medium;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.buttonSearch .btn:hover {
+  border-color: #980021;
+}

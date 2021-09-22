@@ -1,0 +1,19 @@
+.Profile {
+  padding: 2rem;
+}
+
+.cardProfile {
+  padding: 1rem;
+  border-width: medium;
+  border-style: solid;
+  border-color: #000000;
+}
+
+.card {
+  margin: 0 auto 1.5rem auto;
+}
+
+.badge {
+  background-color: #980021;
+  margin: 0.5rem;
+}
