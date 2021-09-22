@@ -22,3 +22,9 @@
 .repositorio .bagde {
   padding-right: 0.5rem;
 }
+
+.tituloRep {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  padding: 1rem;
+}

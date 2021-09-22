@@ -15,7 +15,7 @@ class App extends Component {
         url: "https://api.github.com/users",
         client_id: "Iv1.158a83b01376cdac",
         cliente_secret: "355310ec847e61a11cfc2ffe06e8284d0a300a39",
-        count: 7,
+        count: 4,
         sort: "created: asc",
       },
       user: [],
@@ -51,6 +51,7 @@ class App extends Component {
         <div>
           <Profile user={user} />
         </div>
+        <h3 className="tituloRep">Repositórios</h3>
         <div className="repositorio">
           {repos.map((repos) => (
             <Repositorio key={repos.name} repos={repos} />
