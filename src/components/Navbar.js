@@ -4,7 +4,7 @@ const Navbar = () => (
   <nav className="navbar navbar-dark mb-3">
     <div className="container">
       <a href="#" className="navbar-brand">
-        GitHub Finder
+        GitBook
       </a>
     </div>
   </nav>

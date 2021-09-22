@@ -3,7 +3,6 @@ import Navbar from "./components/Navbar";
 import axios from "axios";
 import Profile from "./components/Profile";
 import Repositorio from "./components/Repositorio";
-import NotFounder from "./components/NotFound";
 import "./CSS/Navbar.css";
 import "./CSS/Profile.css";
 import "./CSS/Repositorio.css";
@@ -49,7 +48,9 @@ class App extends Component {
 
     return (
       <div>
-        <div>{user.id != null ? <Profile user={user} /> : <NotFounder />}</div>
+        <div>
+          <Profile user={user} />
+        </div>
         <div className="repositorio">
           {repos.map((repos) => (
             <Repositorio key={repos.name} repos={repos} />
